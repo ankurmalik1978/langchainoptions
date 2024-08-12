@@ -49,7 +49,7 @@ if __name__ == "__main__":
     # information = scrape_linkedin_profile(linkedin_url="https://www.linkedin.com/in/elonmusk/")
     
     # Now instead of hard coding the URL we want to get the URL against the name of the person
-    # For this, we will make use of Agents
+    # For this, we will make use of Agentssss
     linkednin_profile_url = lookup(name="Eden Marco")
 
     # Now we will scrape the information from the linkedin profile

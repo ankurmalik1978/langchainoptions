@@ -23,7 +23,7 @@ if __name__ == "__main__":
         2. two interesting facts about them
     """
 
-    # Please check following links on how to work with Langchain
+    # Please check following links on how to work with Langchainds
     # https://python.langchain.com/v0.2/docs/integrations/platforms/huggingface/
     # https://api.python.langchain.com/en/latest/llms/langchain_huggingface.llms.huggingface_pipeline.HuggingFacePipeline.html
 

@@ -28,7 +28,7 @@ if __name__ == "__main__":
         )
     
     # We add a template to the prompt
-    # This template serves as a blueprint to direct the summarization process and ensure the encapsulation of key points.
+    # This template serves as a blueprint to direct the summarization process and ensure the encapsulation of key pointsss.
     template = """
               Write a summary of the following text delimited by triple backticks.
               Return your response which covers the key points of the text.
@@ -54,6 +54,11 @@ if __name__ == "__main__":
     # llm_chain = LLMChain(prompt=prompt, llm=pipeline)
 
     # Hence, we will make use HuggingFacePipeline instead of Transformers pipeline
+
+    # Please check following links on how to work with Langchain
+    # https://python.langchain.com/v0.2/docs/integrations/platforms/huggingface/
+    # https://api.python.langchain.com/en/latest/llms/langchain_huggingface.llms.huggingface_pipeline.HuggingFacePipeline.html
+
     hfgppl = HuggingFacePipeline(pipeline = pipeline, model_kwargs = {'temperature':0})
     llm_chain = LLMChain(prompt=pt, llm=hfgppl)
 

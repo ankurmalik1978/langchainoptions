@@ -8,7 +8,7 @@ from  langchain import LLMChain, HuggingFacePipeline, PromptTemplate
 model = "meta-llama/Llama-2-7b-chat-hf"
 tokenizer = AutoTokenizer.from_pretrained(model, local_files_only=True)
 
-# We have created a pipeline using tranformers  
+# We have created a pipeline using tranformers  sss
 pipeline = transformers.pipeline(
     "text-generation",
     model=model,

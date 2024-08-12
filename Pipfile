@@ -12,7 +12,6 @@ langchain-core = "*"
 llamaapi = "*"
 langchain-experimental = "*"
 
-[dev-packages]
 
 [requires]
 python_version = "3.11"

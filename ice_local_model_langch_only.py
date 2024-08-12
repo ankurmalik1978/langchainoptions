@@ -53,6 +53,6 @@ if __name__ == "__main__":
     llm_chain = LLMChain(prompt=pt, llm=hfgppl)
 
 
-    # Please see ice_breaker_local_model.py where we directly work with Transformers pipeline
+    # Please see ice_breaker_local_model.py where we directly work with Transformers pipelinee
 
     print(llm_chain.run(text))
