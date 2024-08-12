@@ -15,7 +15,7 @@
 # params = {
 # "engine": "linkedin_profile",
 # "profile_name": "Ankur Malik",
-# "api_key": "98a8b554c3af637fa28fa60fafae41dfff877c64238d4985dce9f9018c03bf92"
+# "api_key": ""
 # }
 
 # search = GoogleSearch(params)
